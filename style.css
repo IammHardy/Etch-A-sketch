@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+  
+}
+
+#container{
+    display: flex;
+    flex-wrap: wrap;
+    margin:20px auto;
+    border: 1px solid black;
+    width: 960px;
+    height:960px;
+    padding: 5px;
+
+}
+
+.grid-item{
+    flex:1 0 calc(100%/ 16);
+    border:1px solid #ddd;
+    box-sizing: border-box;
+    height:calc(400px/16);
+}
+
+.active{
+    background-color: black;
+}
+
+.grid-item:hover{
+    background-color: black;
+}
+#controls{
+    margin:10px;
+}
+
+
